@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "DD ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "dermantinemod:dermantine"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dermantinemod:dermantine_hoe",
+    "count": 1
+  }
+}

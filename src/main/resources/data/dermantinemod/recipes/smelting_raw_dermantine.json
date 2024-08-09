@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "redstone",
+  "group": "ore",
+  "ingredient": {
+    "item": "dermantinemod:raw_dermantine"
+  },
+  "result": "dermantinemod:dermantine",
+  "experience": 20,
+  "cookingtime": 40
+}

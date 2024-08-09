@@ -1,0 +1,23 @@
+{
+  "language": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+  "author": "vladlol",
+
+  "item.dermantinemod.raw_dermantine": "Raw Dermantine",
+  "item.dermantinemod.dermantine": "Dermantine",
+  "item.dermantinemod.dermantine_ore": "Dermantine Ore",
+  "item.dermantinemod.dermantine_pickaxe": "Dermantine Pickaxe",
+  "item.dermantinemod.dermantine_sword": "Dermantine Sword",
+  "item.dermantinemod.dermantine_axe": "Dermantine Axe",
+  "item.dermantinemod.dermantine_shovel": "Dermantine Shovel",
+  "item.dermantinemod.dermantine_hoe": "Dermantine Hoe",
+  "item.dermantinemod.dermantine_helmet": "Dermantine Helmet",
+  "item.dermantinemod.dermantine_chestplate": "Dermantine Cheastplate",
+  "item.dermantinemod.dermantine_leggings": "Dermantine Leggings",
+  "item.dermantinemod.dermantine_boots": "Dermantine Boots",
+
+  "block.dermantinemod.dermantine_ore": "Dermantine Ore",
+
+  "modcreativetab_tab":"Dermantine"
+}
