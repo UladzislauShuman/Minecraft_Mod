@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dermantinemod:dermantine_ore"
+    "dermantinemod:dermantine_ore",
+    "dermantinemod:dermantine_block"
   ]
 }

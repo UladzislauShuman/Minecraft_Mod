@@ -24,19 +24,9 @@ public class AllBlocks {
     public static final RegistryObject<Block> DERMANTINE_ORE = BLOCKS.register("dermantine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.5f).requiresCorrectToolForDrops()));
-//    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
-//        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-//        registerBlockItem(name, toReturn, tab);
-//        return toReturn;
-//    }
-//
-//    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
-//        //.tab(tab);
-//        return AllItems.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties().tab(tab)));
-//    }
-//
-//    public static void register(IEventBus eventBus){
-//        BLOCKS.register(eventBus);
-//    }
+
+    public static final RegistryObject<Block> DERMANTINE_BLOCK = BLOCKS.register("dermantine_block",
+            ()->new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1f).requiresCorrectToolForDrops()));
 
 }

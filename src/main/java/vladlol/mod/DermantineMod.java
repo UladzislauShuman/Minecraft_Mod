@@ -3,6 +3,7 @@ package vladlol.mod;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -56,10 +57,40 @@ public class DermantineMod
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(AllItems.DERMANTINE_BLOCK);
+        }
+
+        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(AllItems.DERMANTINE_ORE);
+        }
+
+        if(event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(AllItems.DERMANTINE_SHOVEL);
+            event.accept(AllItems.DERMANTINE_PICKAXE);
+            event.accept(AllItems.DERMANTINE_AXE);
+            event.accept(AllItems.DERMANTINE_HOE);
+        }
+
+        if(event.getTab() == CreativeModeTabs.COMBAT){
+            event.accept(AllItems.DERMANTINE_SWORD);
+            event.accept(AllItems.DERMANTINE_HORSE_ARMOR);
+            event.accept(AllItems.DERMANTINE_HELMET);
+            event.accept(AllItems.DERMANTINE_CHESTPLATE);
+            event.accept(AllItems.DERMANTINE_LEGGINGS);
+            event.accept(AllItems.DERMANTINE_BOOTS);
+        }
+
+        if(event.getTab() == CreativeModeTabs.INGREDIENTS){
+            event.accept(AllItems.DERMANTINE);
+            event.accept(AllItems.RAW_DERMANTINE);
+        }
+
         if(event.getTab() == ModCreativeTab.tab){
             event.accept(AllItems.DERMANTINE);
             event.accept(AllItems.RAW_DERMANTINE);
             event.accept(AllItems.DERMANTINE_ORE);
+            event.accept(AllItems.DERMANTINE_BLOCK);
 
             event.accept(AllItems.DERMANTINE_PICKAXE);
             event.accept(AllItems.DERMANTINE_SWORD);
@@ -71,6 +102,7 @@ public class DermantineMod
             event.accept(AllItems.DERMANTINE_CHESTPLATE);
             event.accept(AllItems.DERMANTINE_LEGGINGS);
             event.accept(AllItems.DERMANTINE_BOOTS);
+            event.accept(AllItems.DERMANTINE_HORSE_ARMOR);
         }
     }
 

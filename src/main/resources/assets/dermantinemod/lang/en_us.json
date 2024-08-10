@@ -5,7 +5,7 @@
   "author": "vladlol",
 
   "item.dermantinemod.raw_dermantine": "Raw Dermantine",
-  "item.dermantinemod.dermantine": "Dermantine",
+  "item.dermantinemod.dermantine": "Dermantine Ingot",
   "item.dermantinemod.dermantine_ore": "Dermantine Ore",
   "item.dermantinemod.dermantine_pickaxe": "Dermantine Pickaxe",
   "item.dermantinemod.dermantine_sword": "Dermantine Sword",
@@ -16,8 +16,10 @@
   "item.dermantinemod.dermantine_chestplate": "Dermantine Cheastplate",
   "item.dermantinemod.dermantine_leggings": "Dermantine Leggings",
   "item.dermantinemod.dermantine_boots": "Dermantine Boots",
+  "item.dermantinemod.dermantine_horse_armor": "Dermantine Horse Armor",
 
   "block.dermantinemod.dermantine_ore": "Dermantine Ore",
+  "block.dermantinemod.dermantine_block": "Block of Dermantine",
 
   "modcreativetab_tab":"Dermantine"
 }

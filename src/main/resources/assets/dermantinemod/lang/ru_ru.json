@@ -5,19 +5,22 @@
   "author": "vladlol",
 
   "item.dermantinemod.raw_dermantine": "Необработанный Дермантин",
-  "item.dermantinemod.dermantine": "Дермантин",
+  "item.dermantinemod.dermantine": "Дермантиновый Слиток",
   "item.dermantinemod.dermantine_ore": "Дермантиновая Руда",
-  "item.dermantinemod.dermantine_pickaxe": "Дермантинованная Кирка",
+  "item.dermantinemod.dermantine_pickaxe": "Дермантиновая Кирка",
   "item.dermantinemod.dermantine_sword": "Дермантиновый Меч",
   "item.dermantinemod.dermantine_axe": "Дермантиновый Топор",
   "item.dermantinemod.dermantine_shovel": "Дермантиновая Лопата",
   "item.dermantinemod.dermantine_hoe": "Дермантиновая Лопата",
   "item.dermantinemod.dermantine_helmet": "Дермантиновый Шлема",
   "item.dermantinemod.dermantine_chestplate": "Дермантиновый Нагрудник",
-  "item.dermantinemod.dermantine_leggings": "Дермантинованные Штаны",
-  "item.dermantinemod.dermantine_boots": "Дермантинованные Ботинки",
+  "item.dermantinemod.dermantine_leggings": "Дермантиновые Штаны",
+  "item.dermantinemod.dermantine_boots": "Дермантиновые Ботинки",
+  "item.dermantinemod.dermantine_horse_armor": "Дермантиновая Конная Броня",
 
   "block.dermantinemod.dermantine_ore": "Дермантиновая Мотыга",
+  "block.dermantinemod.dermantine_block": "Дермантиновый Блок",
+
 
   "modcreativetab_tab":"Дермантин"
 }
